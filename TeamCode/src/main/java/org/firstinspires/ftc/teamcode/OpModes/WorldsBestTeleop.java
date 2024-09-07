@@ -73,7 +73,7 @@ public class WorldsBestTeleop extends OpMode {
 
         //FTCLib drive code, instantiated in HWProfile
         robot.mecanum.driveFieldCentric(strafePower,forwardPower,-gp1.getRightX()*robot.TURN_MULTIPLIER,robot.imu.getRotation2d().getDegrees()+180, true);        //END OF DRIVE CONTROL SECTION//
-
+/*
         //CLAW CONTROL SECTION//
         if(gp1.isDown(GamepadKeys.Button.A)&&clawReady){
             clawToggle=!clawToggle;
@@ -220,6 +220,7 @@ public class WorldsBestTeleop extends OpMode {
 
         telemetry.addData("pos: ",armPos);
         telemetry.addData("target: ",target);
+        */
     }
 
 }
