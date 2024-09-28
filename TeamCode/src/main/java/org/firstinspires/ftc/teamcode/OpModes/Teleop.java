@@ -14,8 +14,8 @@ import org.firstinspires.ftc.robotcore.external.navigation.AngleUnit;
 import org.firstinspires.ftc.teamcode.Hardware.HWProfile;
 
 @Config
-@TeleOp(name = "World's Best Teleop - WORLDS", group = "Competition")
-public class WorldsBestTeleopWorlds extends OpMode {
+@TeleOp(name = "Teleop - Tinkerfest", group = "Competition")
+public class Teleop extends OpMode {
 
     // Hardware control
     private HWProfile robot;
